@@ -4,8 +4,17 @@ public class App {
 
 
     public static void main(String[] args) {
-            printMessage("chomikowej");
-            printMessage("glorpo");
+
+        String[] names = {"boft","mikjh","ghytr"};
+
+
+
+
+        for (int i = 0; i < names.length;   i++) {
+            printMessage(names[i]);
+            System.out.println(i);
+
+        }
 
     }
 
