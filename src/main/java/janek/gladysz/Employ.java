@@ -8,15 +8,20 @@ public class Employ {
 
     String position;
 
-    public Employ(String firstname) {
+    public Employ(String firstname,String lastname,String position) {
         this.firstname = firstname;
 
-        lastname = "Purbać";
-        position = "kitchen";
+        this.lastname = lastname;
+        this.position = position;
+
     }
 
     public String fullInfo(){
         return firstname +" " + lastname + " " + position;
     }
 
+    @Override
+    public String toString() {
+        return fullInfo();
+    }
 }
