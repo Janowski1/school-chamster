@@ -7,5 +7,6 @@ int classCount;
 
 boolean cantine = false;
 double averageGrade = 5.5;
+
 }
 
