@@ -11,9 +11,9 @@ public class App {
 
         Employ chef = new Employ("Zdzichu", "Polski", "chef");
         Employ arsenalista = new Employ("Janusz", "Witosik", "linia strzału");
-        Employ policjant = new Employ("Tusk", "Donald", "komisariat");
+        Employ policjant = new Employ("Donald", "Tusk", "komisariat");
         Employ strazak = new Employ("Żabuś", "Robbeć", "przy gaśnicy");
-        Employ wozny = new Employ("Morawiecki", "Ciapciak", "korytarz");
+        Employ wozny = new Employ("Ciapciak", "Morawiecki", "korytarz");
 
         System.out.println(chef.fullInfo());
 
